@@ -1,0 +1,45 @@
+.admin-details-head {
+  max-width: 1500px;
+  margin: 0 auto 30px;
+  .back {
+    position: absolute;
+    font-size: 28px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: -72px;
+    cursor: pointer;
+    color: #ccc;
+
+    &:hover {
+      color: var(--color-text-primary);
+      background-color: var(--color-divider);
+    }
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      font-weight: 600;
+      margin-bottom: 0;
+      display: flex;
+      cursor: pointer;
+      align-items: center;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      text-transform: capitalize;
+      padding-bottom: 20px;
+    }
+  }
+
+  tr td:first-child {
+    color: var(--color-text-secondary);
+    display: inline-block;
+    margin-bottom: 5px;
+    padding-right: 80px;
+    padding-top: 5px;
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+.idea
+.npmrc
+.nvmrc
+.bashrc
+dist
+.DS_Store
+storybook-static

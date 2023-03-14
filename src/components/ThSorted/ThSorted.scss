@@ -1,0 +1,29 @@
+th.sorted {
+  border-radius: 4px;
+  cursor: pointer;
+  justify-content: space-between;
+
+  img {
+    height: 14px;
+    float: right;
+    font-size: 16px;
+    transform: rotate(180deg);
+    transition: all 200ms ease-out;
+    opacity: 0.3;
+    margin-right: -6px;
+    color: #868686;
+  }
+
+  &:hover, &.active {
+    background-color: rgba(0, 0, 0, 0.02);
+    img {
+      opacity: 1;
+    }
+  }
+
+  &.desc {
+    img {
+      transform: rotate(0);
+    }
+  }
+}
